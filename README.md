@@ -1,55 +1,18 @@
-## SDP-GAN: Saliency Detail Preservation Generative Adversarial Networks for High Perceptual Quality Style Transfer
+## UPHDR-GAN: Generative Adversarial Network for High Dynamic Range Imaging with Unpaired Data
 
-This is the Pytorch implementation of our TIP 2020 paper [SDP-GAN](http://liushuaicheng.org/TIP/SDPGAN/SDPGAN-TIP.pdf).
-
-![image](./figs/pipeline.png)
-
-## Dependencies
-
-* Python=3.5
-* Pytorch>=1.1.0
-* Other requirements please refer to requirements.txt.
-
-
-## Pre-trained models
-
-The pre-trained models can be downloaded [here](https://drive.google.com/drive/folders/1agSGUuK0LuwLuxzqXADGdRa2rvD_CyWu?usp=sharing). Place the models in ./pretrained_models in order to test it.
-
-
-## Testing
-
-```
-python3 test.py
-```
-
-## Results
-
-![image](./figs/results.png)
+This is the Pytorch implementation of our TCSVT 2022 paper [UPHDR-GAN](https://arxiv.org/pdf/2102.01850.pdf).
 
 ## Citation
 
 ```
-@article{li2020sdp-gan,
-  title={SDP-GAN: Saliency Detail Preservation Generative Adversarial Networks for High Perceptual Quality Style Transfer},
-  author={Li, Ru and Wu, Chi-Hao and Liu, Shuaicheng and Wang, Jue and Wang, Guangfu and Liu, Guanghui and Zeng, Bing},
-  journal={IEEE Transactions on Image Processing},
-  volume={30},
-  pages={374--385},
-  year={2020},
+@article{li2022uphdr,
+  title={Uphdr-gan: Generative adversarial network for high dynamic range imaging with unpaired data},
+  author={Li, Ru and Wang, Chuan and Wang, Jue and Liu, Guanghui and Zhang, Heng-Yu and Zeng, Bing and Liu, Shuaicheng},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  volume={32},
+  number={11},
+  pages={7532--7546},
+  year={2022},
   publisher={IEEE}
 }
 ```
-
-# Acknowledgments
-
-In this project we use (parts of) the implementations of the following works:
-
-* [CartoonGAN-Test-Pytorch-Torch](https://github.com/Yijunmaverick/CartoonGAN-Test-Pytorch-Torch)
-* [Pytorch-CartoonGAN](https://github.com/znxlwm/pytorch-CartoonGAN) 
-
-We thank the respective authors for open sourcing of their implementations.
-
-# To do List
-
-* Upload pre-trained models with more styles
-* Upload the training codes
