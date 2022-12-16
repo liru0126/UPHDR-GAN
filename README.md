@@ -1,6 +1,6 @@
 ## UPHDR-GAN: Generative Adversarial Network for High Dynamic Range Imaging with Unpaired Data
 
-This is the Pytorch implementation of our TCSVT 2022 paper [UPHDR-GAN](https://arxiv.org/pdf/2102.01850.pdf).
+This is the Pytorch implementation of our TCSVT 2022 paper [UPHDR-GAN](https://ieeexplore.ieee.org/abstract/document/9826814/).
 
 ![image](./figs/pipeline.png)
 
