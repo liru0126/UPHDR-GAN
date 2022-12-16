@@ -2,6 +2,17 @@
 
 This is the Pytorch implementation of our TCSVT 2022 paper [UPHDR-GAN](https://arxiv.org/pdf/2102.01850.pdf).
 
+![image](./figs/pipeline.png)
+
+## Dependencies
+
+* Pytorch>=1.5.0
+* Other requirements please refer to`requirements.txt`.
+
+## Results
+
+![image](./figs/results.png)
+
 ## Citation
 
 ```
@@ -16,3 +27,5 @@ This is the Pytorch implementation of our TCSVT 2022 paper [UPHDR-GAN](https://a
   publisher={IEEE}
 }
 ```
+
+## Acknowledgments
