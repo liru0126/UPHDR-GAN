@@ -29,3 +29,10 @@ This is the Pytorch implementation of our TCSVT 2022 paper [UPHDR-GAN](https://a
 ```
 
 ## Acknowledgments
+
+In this project we use (parts of) the implementations of the following works:
+
+* [HDR-GAN](https://github.com/nonu116/HDR-GAN)
+* [NHDRRNet-pytorch](https://github.com/Galaxies99/NHDRRNet-pytorch) 
+
+We thank the respective authors for open sourcing of their implementations.
