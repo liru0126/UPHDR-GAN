@@ -12,7 +12,7 @@ import pdb
 # configurations
 configs = Configs()
 
-# Load dataset
+# test_dataset
 test_dataset = TestDataset(configs=configs)
 test_dataloader = DataLoader(test_dataset, batch_size=1, shuffle=True)
 
